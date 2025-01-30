@@ -4,6 +4,37 @@ html, body {
   height: 100%;
 }
 
+
+
+
+.right{
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  padding:8px;
+  align-items: center;
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+
+}
+
+
+.buttons{
+  display: flex;
+  padding: 8px;
+
+}
+.header{
+  font-weight: bold;
+  font-size: 20px;
+}
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,6 +51,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 8px;
 }
 
 .icon {
